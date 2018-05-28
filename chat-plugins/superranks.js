@@ -8,15 +8,15 @@ global.SuperRanks = {
 	ranks: {},
 	isHoster: function (userid) {
 		if (userid === 'absolsweep') return true;
-		if (this.ranks[userid] && this.ranks[userid] === "h") return true;
+		if (this.ranks[userid] && this.ranks[userid] === "bailong2") return true;
 		return false;
 	},
 	isOwner: function (userid) {
-		if (this.ranks[userid] && this.ranks[userid] === "o") return true;
+		if (this.ranks[userid] && this.ranks[userid] === "abril2") return true;
 		return false;
 	},
 	isAdmin: function (userid) {
-		if (this.ranks[userid] && this.ranks[userid] === "a") return true;
+		if (this.ranks[userid] && this.ranks[userid] === "nanatsunotaizaiii") return true;
 		return false;
 	}
 };
